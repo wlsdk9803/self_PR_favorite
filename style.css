@@ -6,15 +6,14 @@ body {
   margin: 0;
   line-height: 1.6;
   box-sizing: border-box;
-  background: linear-gradient(
-    -45deg,
-    #fafc7d,
-    #f0d29c,
-    #ff7fd0,
-    #aecbf0,
-    rgb(155, 240, 255)
+  background-image: linear-gradient(
+    -225deg,
+    #69eacb 0%,
+    #eaccf8 48%,
+    #b7c9d9,
+    #6654f1 100%
   );
-  background-size: 100% 100%;
+  background-size: 300% 300%;
   background-repeat: no-repeat;
   animation: backgroundChange 10s ease-in-out infinite;
   z-index: 2;
